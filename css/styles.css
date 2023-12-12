@@ -1,0 +1,62 @@
+/* Root */
+:root {
+  --body-background-color: #fff;
+  --body-text-color-main: #3a3a3a;
+  --body-theme-color: #ffdf00;
+}
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  /* color: #1111;
+  background-color: #ffff; */
+}
+
+input,
+textarea {
+  outline: none;
+}
+/* Header */
+/* .logo-icon {
+  width: 280px;
+  height: 58px;
+  size: 100%;
+} */
